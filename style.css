@@ -1,0 +1,38 @@
+body
+{
+    font-family: 'Lora', serif;
+    background-color: limegreen;
+}
+
+#header_div
+{
+    background-color: black;
+    color: yellow;
+}
+
+p
+{
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+#main_div
+{
+   background-color: black;
+   color: yellow; 
+   width: 30px;
+   font-weight: bold;
+   letter-spacing: 10px;
+}
+
+#copy_right_footer
+{
+    background-color: black;
+    color: yellow;
+    width: fit-content;
+    font-size: 30px;
+    line-height: 30px;
+    text-shadow: 10px;
+}
