@@ -14,6 +14,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+
     </head>
 
     <body>
@@ -22,33 +25,38 @@
 
             <center>
 
-            <h2 id="heading">Animal Voice Recognition</h2>
+              <h2 id="heading">Animal Voice Recognition</h2>
+
+              <div id="main_div" class="col-xs-12">
+
+                  <button class="btn btn-success" onclick="detect_sound()">Check</button>
+
+                   <h4 id="number_times"></h4>
+
+                  <h3 id="number_audio"></h3>
+
+                  <br>
+
+                   <img src="hear.png" id="hear">
+
+                </div>
+
+              <div class="copy_right_footer">
+
+
+              </div>
+
+              <p id="audio"></p>
+
 
             </center>
 
-            <p id="audio"></p>
-
+            
         </div>
 
-        <div id="main_div" class="col-xs-12">
+       
 
-            <center>
-
-                <button class="btn btn-success" onclick="detect_sound()">Check</button>
-
-                <h4 id="number_times"></h4>
-
-                <h3 id="number_audio"></h3>
-
-                <br>
-
-                <img src="hear.png" id="hear">
-
-            </center>
-
-        </div>
-
-        <div class="copy_right_footer"></div>
+        
 
     </body>
 
